@@ -168,6 +168,7 @@ nav ul li a.active {
 .containers{
     height: 100vh;
     background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75));
+
     z-index: 8;
 }
 
@@ -187,6 +188,7 @@ nav ul li a.active {
 
 .a {
     text-align: center;
+
 }
 #Bruh {
     margin-left: 0.65pc;
@@ -201,15 +203,20 @@ nav ul li a.active {
     zoom: 55%;
 }
 .icons{
+
     position: absolute;
     top: 0%; 
     right: 1%;
+
     margin: 30px 0px ;
     padding: 0px 0;
     display: flex;
+
+    
     justify-content: space-between;
     z-index: 5;
     list-style: none;
+    
 }
 .icons ul li{
     list-style: none;
@@ -217,12 +224,16 @@ nav ul li a.active {
 
 }
 .icons ul svg  {
+
     list-style: none;
+    
+
     position: relative;
     background-color: transparent;
     border-radius: 20%;
     box-shadow: 0 5px 4px rgba(0,0,0,0.5);
     transition: 0.4s;
+
 }
 
 .icons ul svg:hover{
@@ -236,10 +247,13 @@ nav ul li a.active {
 
     }
     .icons{
-    position: absolute;
-    left: 0%;
-    top: 90%;
-    width: 100%;
+        position: absolute;
+        left: 0%;
+        top: 90%;
+        width: 100%;
+    }
+    .backround{
+        zoom: 0%;
     }
 
 }
