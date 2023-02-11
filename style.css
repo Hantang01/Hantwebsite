@@ -1,5 +1,7 @@
 html{
     height: -webkit-fill-available;
+    overflow-x: hidden;
+    max-width: 100%;
 }
 .startscreen {
     z-index: 10;
