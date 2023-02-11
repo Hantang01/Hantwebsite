@@ -194,6 +194,10 @@ nav ul li a.active {
     margin-left: 0.65pc;
     font-size: 1em;
 }
+.typed-cursor {
+    color: #fff;
+  }
+  
 .backround{
     position: absolute;
 
